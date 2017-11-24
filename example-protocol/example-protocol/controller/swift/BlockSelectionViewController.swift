@@ -1,5 +1,5 @@
 //
-//  CallbackSelectionViewController.swift
+//  BlockSelectionViewController.swift
 //  example-protocol
 //
 //  Created by Victor Baleeiro on 13/11/17.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CallbackSelectionViewController: BaseViewController {
+class BlockSelectionViewController: BaseViewController {
     
     //-------------------------------------------------------------------------------------------------------------
     // MARK: Properties
@@ -44,14 +44,14 @@ class CallbackSelectionViewController: BaseViewController {
 //-------------------------------------------------------------------------------------------------------------
 // MARK: UITableViewDelegate
 //-------------------------------------------------------------------------------------------------------------
-extension CallbackSelectionViewController: UITableViewDelegate {
+extension BlockSelectionViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         //Obtem veículo conforme indice
         let veiculo: Veiculo = listaVeiculos[indexPath.row]
         //Informa seleção para a tela anterior
-        self.veiculoSelecionadoCallback!(veiculo)
+        self.veiculoSelecionadoBlock!(veiculo)
         //Volta para a tela anterior
         self.navigationController?.popViewController(animated: true)
     }
@@ -61,7 +61,7 @@ extension CallbackSelectionViewController: UITableViewDelegate {
 //-------------------------------------------------------------------------------------------------------------
 // MARK: UITableViewDataSource
 //-------------------------------------------------------------------------------------------------------------
-extension CallbackSelectionViewController: UITableViewDataSource {
+extension BlockSelectionViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listaVeiculos.count
     }

@@ -14,6 +14,6 @@ class BaseViewController: UIViewController {
     //-------------------------------------------------------------------------------------------------------------
     // MARK: Properties
     //-------------------------------------------------------------------------------------------------------------
-    var veiculoSelecionadoCallback: ((_ veiculo: Veiculo) -> Void)? = nil
+    var veiculoSelecionadoBlock: ((_ veiculo: Veiculo) -> Void)? = nil
 
 }

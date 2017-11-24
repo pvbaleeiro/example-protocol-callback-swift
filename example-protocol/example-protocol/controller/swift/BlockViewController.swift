@@ -1,5 +1,5 @@
 //
-//  CallbackViewController.swift
+//  BlockViewController.swift
 //  example-protocol
 //
 //  Created by Victor Baleeiro on 13/11/17.
@@ -13,12 +13,12 @@ import UIKit
 //-------------------------------------------------------------------------------------------------------------
 // MARK: Constantes/Enums
 //-------------------------------------------------------------------------------------------------------------
-enum CallbackSegues: String {
+enum BlockSegues: String {
     case selection = "segue_selection"
 }
 
 
-class CallbackViewController: BaseViewController {
+class BlockViewController: BaseViewController {
     
     //-------------------------------------------------------------------------------------------------------------
     // MARK: Properties
@@ -37,17 +37,21 @@ class CallbackViewController: BaseViewController {
     
     
     //-------------------------------------------------------------------------------------------------------------
-    // MARK: Segue
+    // MARK: Action
     //-------------------------------------------------------------------------------------------------------------
     @IBAction func escolherVeiculo() {
         NSLog("Ir para a seleção de veículo...")
-        performSegue(withIdentifier: CallbackSegues.selection.rawValue, sender: nil)
+        performSegue(withIdentifier: BlockSegues.selection.rawValue, sender: nil)
     }
     
+    
+    //-------------------------------------------------------------------------------------------------------------
+    // MARK: Segue
+    //-------------------------------------------------------------------------------------------------------------
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let callbackSelectionController: CallbackSelectionViewController = segue.destination as! CallbackSelectionViewController
-        callbackSelectionController.veiculoSelecionadoCallback = {(_ veiculo: Veiculo) -> Void in
+        let blockSelectionController: BlockSelectionViewController = segue.destination as! BlockSelectionViewController
+        blockSelectionController.veiculoSelecionadoBlock = {(_ veiculo: Veiculo) -> Void in
             
             //Atribui seleção ao texto
             self.lblVeiculo.text = veiculo.dadosFormatados()

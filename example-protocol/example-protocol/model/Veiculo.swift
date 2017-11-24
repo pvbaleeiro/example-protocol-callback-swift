@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Veiculo {
+class Veiculo: NSObject {
     
     //-------------------------------------------------------------------------------------------------------------
     // MARK: Properties
@@ -18,13 +18,13 @@ class Veiculo {
     var placa: String = ""
     
     
-    init(marca: String, modelo: String, placa: String) {
+    @objc public init(marca: String, modelo: String, placa: String) {
         self.marca = marca
         self.modelo = modelo
         self.placa = placa
     }
     
-    func dadosFormatados() -> String {
+    @objc public func dadosFormatados() -> String {
         return String(self.placa + " | " + self.marca + " | " + self.modelo)
     }
 }

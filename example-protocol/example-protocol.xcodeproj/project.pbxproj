@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C124961FC7820A0033B28E /* ObjCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C124951FC7820A0033B28E /* ObjCBaseViewController.m */; };
+		80C1249E1FC78A2E0033B28E /* ObjCBlockSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1249D1FC78A2E0033B28E /* ObjCBlockSelectionViewController.m */; };
+		80C124A01FC790E10033B28E /* ObjCBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1249F1FC790E10033B28E /* ObjCBlockViewController.m */; };
+		80C124A21FC799CA0033B28E /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C124A11FC799C90033B28E /* BlockViewController.swift */; };
+		80C124A51FC79D470033B28E /* ObjCDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C124A41FC79D470033B28E /* ObjCDelegateViewController.m */; };
+		80C124A81FC79FE50033B28E /* ObjCDelegateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C124A71FC79FE50033B28E /* ObjCDelegateSelectionViewController.m */; };
 		80DE53D91FBA40D300CD7535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE53D81FBA40D300CD7535 /* AppDelegate.swift */; };
-		80DE53DB1FBA40D300CD7535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE53DA1FBA40D300CD7535 /* ViewController.swift */; };
 		80DE53DE1FBA40D300CD7535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DE53DC1FBA40D300CD7535 /* Main.storyboard */; };
 		80DE53E01FBA40D300CD7535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DE53DF1FBA40D300CD7535 /* Assets.xcassets */; };
 		80DE53E31FBA40D300CD7535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DE53E11FBA40D300CD7535 /* LaunchScreen.storyboard */; };
 		80DE53EE1FBA40D300CD7535 /* example_protocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE53ED1FBA40D300CD7535 /* example_protocolTests.swift */; };
 		80DE53F91FBA40D300CD7535 /* example_protocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE53F81FBA40D300CD7535 /* example_protocolUITests.swift */; };
 		80DE54081FBA41B100CD7535 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE54071FBA41B100CD7535 /* BaseViewController.swift */; };
-		80DE540A1FBA425200CD7535 /* CallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE54091FBA425200CD7535 /* CallbackViewController.swift */; };
 		80DE540D1FBA42EA00CD7535 /* Veiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE540C1FBA42EA00CD7535 /* Veiculo.swift */; };
-		80DE54101FBA441F00CD7535 /* CallbackSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE540F1FBA441F00CD7535 /* CallbackSelectionViewController.swift */; };
+		80DE54101FBA441F00CD7535 /* BlockSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE540F1FBA441F00CD7535 /* BlockSelectionViewController.swift */; };
 		80DE54131FBA4F3300CD7535 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE54121FBA4F3300CD7535 /* MainViewController.swift */; };
 		80DE54151FBA50CD00CD7535 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE54141FBA50CD00CD7535 /* DelegateViewController.swift */; };
 		80DE54171FBA50F500CD7535 /* DelegateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE54161FBA50F500CD7535 /* DelegateSelectionViewController.swift */; };
@@ -41,9 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80C124931FC782090033B28E /* example-protocol-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-protocol-Bridging-Header.h"; sourceTree = "<group>"; };
+		80C124951FC7820A0033B28E /* ObjCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCBaseViewController.m; sourceTree = "<group>"; };
+		80C124981FC7864E0033B28E /* ObjCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBaseViewController.h; sourceTree = "<group>"; };
+		80C124991FC787C30033B28E /* ObjCBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBlockViewController.h; sourceTree = "<group>"; };
+		80C1249C1FC78A2E0033B28E /* ObjCBlockSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBlockSelectionViewController.h; sourceTree = "<group>"; };
+		80C1249D1FC78A2E0033B28E /* ObjCBlockSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCBlockSelectionViewController.m; sourceTree = "<group>"; };
+		80C1249F1FC790E10033B28E /* ObjCBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCBlockViewController.m; sourceTree = "<group>"; };
+		80C124A11FC799C90033B28E /* BlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
+		80C124A31FC79D470033B28E /* ObjCDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDelegateViewController.h; sourceTree = "<group>"; };
+		80C124A41FC79D470033B28E /* ObjCDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDelegateViewController.m; sourceTree = "<group>"; };
+		80C124A61FC79FE50033B28E /* ObjCDelegateSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDelegateSelectionViewController.h; sourceTree = "<group>"; };
+		80C124A71FC79FE50033B28E /* ObjCDelegateSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDelegateSelectionViewController.m; sourceTree = "<group>"; };
 		80DE53D51FBA40D300CD7535 /* example-protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE53D81FBA40D300CD7535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80DE53DA1FBA40D300CD7535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80DE53DD1FBA40D300CD7535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DE53DF1FBA40D300CD7535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DE53E21FBA40D300CD7535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,9 +70,8 @@
 		80DE53F81FBA40D300CD7535 /* example_protocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_protocolUITests.swift; sourceTree = "<group>"; };
 		80DE53FA1FBA40D300CD7535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80DE54071FBA41B100CD7535 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		80DE54091FBA425200CD7535 /* CallbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackViewController.swift; sourceTree = "<group>"; };
 		80DE540C1FBA42EA00CD7535 /* Veiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veiculo.swift; sourceTree = "<group>"; };
-		80DE540F1FBA441F00CD7535 /* CallbackSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackSelectionViewController.swift; sourceTree = "<group>"; };
+		80DE540F1FBA441F00CD7535 /* BlockSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSelectionViewController.swift; sourceTree = "<group>"; };
 		80DE54121FBA4F3300CD7535 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		80DE54141FBA50CD00CD7535 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 		80DE54161FBA50F500CD7535 /* DelegateSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateSelectionViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +102,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80C124901FC7814E0033B28E /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				80DE54071FBA41B100CD7535 /* BaseViewController.swift */,
+				80C124A11FC799C90033B28E /* BlockViewController.swift */,
+				80DE540F1FBA441F00CD7535 /* BlockSelectionViewController.swift */,
+				80DE54141FBA50CD00CD7535 /* DelegateViewController.swift */,
+				80DE54161FBA50F500CD7535 /* DelegateSelectionViewController.swift */,
+				80DE54121FBA4F3300CD7535 /* MainViewController.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		80C124911FC781630033B28E /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				80C124981FC7864E0033B28E /* ObjCBaseViewController.h */,
+				80C124951FC7820A0033B28E /* ObjCBaseViewController.m */,
+				80C124991FC787C30033B28E /* ObjCBlockViewController.h */,
+				80C1249F1FC790E10033B28E /* ObjCBlockViewController.m */,
+				80C1249C1FC78A2E0033B28E /* ObjCBlockSelectionViewController.h */,
+				80C1249D1FC78A2E0033B28E /* ObjCBlockSelectionViewController.m */,
+				80C124A31FC79D470033B28E /* ObjCDelegateViewController.h */,
+				80C124A41FC79D470033B28E /* ObjCDelegateViewController.m */,
+				80C124A61FC79FE50033B28E /* ObjCDelegateSelectionViewController.h */,
+				80C124A71FC79FE50033B28E /* ObjCDelegateSelectionViewController.m */,
+				80C124931FC782090033B28E /* example-protocol-Bridging-Header.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		80C124921FC781870033B28E /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				80DE53DC1FBA40D300CD7535 /* Main.storyboard */,
+				80DE53E11FBA40D300CD7535 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
 		80DE53CC1FBA40D200CD7535 = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +169,7 @@
 				80DE54061FBA419C00CD7535 /* controller */,
 				80DE540B1FBA42CD00CD7535 /* model */,
 				80DE54111FBA444800CD7535 /* resources */,
-				80DE53DA1FBA40D300CD7535 /* ViewController.swift */,
 				80DE53DF1FBA40D300CD7535 /* Assets.xcassets */,
-				80DE53E11FBA40D300CD7535 /* LaunchScreen.storyboard */,
 				80DE53E41FBA40D300CD7535 /* Info.plist */,
 			);
 			path = "example-protocol";
@@ -144,12 +196,8 @@
 		80DE54061FBA419C00CD7535 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				80DE54071FBA41B100CD7535 /* BaseViewController.swift */,
-				80DE54091FBA425200CD7535 /* CallbackViewController.swift */,
-				80DE540F1FBA441F00CD7535 /* CallbackSelectionViewController.swift */,
-				80DE54141FBA50CD00CD7535 /* DelegateViewController.swift */,
-				80DE54161FBA50F500CD7535 /* DelegateSelectionViewController.swift */,
-				80DE54121FBA4F3300CD7535 /* MainViewController.swift */,
+				80C124911FC781630033B28E /* objc */,
+				80C124901FC7814E0033B28E /* swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -173,7 +221,7 @@
 		80DE54111FBA444800CD7535 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				80DE53DC1FBA40D300CD7535 /* Main.storyboard */,
+				80C124921FC781870033B28E /* storyboard */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -246,6 +294,7 @@
 				TargetAttributes = {
 					80DE53D41FBA40D300CD7535 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					80DE53E81FBA40D300CD7535 = {
@@ -312,15 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C1249E1FC78A2E0033B28E /* ObjCBlockSelectionViewController.m in Sources */,
 				80DE54131FBA4F3300CD7535 /* MainViewController.swift in Sources */,
+				80C124961FC7820A0033B28E /* ObjCBaseViewController.m in Sources */,
+				80C124A81FC79FE50033B28E /* ObjCDelegateSelectionViewController.m in Sources */,
 				80DE54151FBA50CD00CD7535 /* DelegateViewController.swift in Sources */,
-				80DE53DB1FBA40D300CD7535 /* ViewController.swift in Sources */,
 				80DE53D91FBA40D300CD7535 /* AppDelegate.swift in Sources */,
-				80DE54101FBA441F00CD7535 /* CallbackSelectionViewController.swift in Sources */,
+				80DE54101FBA441F00CD7535 /* BlockSelectionViewController.swift in Sources */,
 				80DE54081FBA41B100CD7535 /* BaseViewController.swift in Sources */,
+				80C124A21FC799CA0033B28E /* BlockViewController.swift in Sources */,
 				80DE540D1FBA42EA00CD7535 /* Veiculo.swift in Sources */,
-				80DE540A1FBA425200CD7535 /* CallbackViewController.swift in Sources */,
+				80C124A01FC790E10033B28E /* ObjCBlockViewController.m in Sources */,
 				80DE54171FBA50F500CD7535 /* DelegateSelectionViewController.swift in Sources */,
+				80C124A51FC79D470033B28E /* ObjCDelegateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,12 +539,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 92364YLT5P;
 				INFOPLIST_FILE = "example-protocol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brotherslabs.example-protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "example-protocol/controller/objc/example-protocol-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,12 +558,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 92364YLT5P;
 				INFOPLIST_FILE = "example-protocol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brotherslabs.example-protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "example-protocol/controller/objc/example-protocol-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
